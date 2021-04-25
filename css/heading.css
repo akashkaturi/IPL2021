@@ -1,4 +1,4 @@
-.top{
+.top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,104 +6,117 @@
     min-height: 70vh;
 }
 
-h1{
+h1 {
     font-size: 4rem;
 }
-.stats ul{
+.stats ul {
     display: flex;
     justify-content: space-around;
- 
+
     margin-top: 5rem;
 }
-.stats ul li{
+.stats ul li {
     list-style: none;
     font-size: 2rem;
     margin: 0 4.5rem;
 }
-.plstats ul{
+.plstats ul {
     display: flex;
     justify-content: space-around;
-  
+
     margin-top: 5rem;
 }
-.plstats ul li{
+.plstats ul li {
     list-style: none;
     font-size: 2.5rem;
     margin: 0 3rem;
-
 }
-.navlinks li a:hover{
+.navlinks li a:hover {
     color: black;
 }
-.navlinks li a:active{
+.navlinks li a:active {
     color: black;
 }
-.cool::after{
+.cool::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
     background: black;
-    transition: width .3s forwards;
+    transition: width 0.3s forwards;
 }
-.cool:hover::after{
+.cool:hover::after {
     width: 100%;
-    transition: width .3s forwards;
+    transition: width 0.3s forwards;
 }
-@media screen and (max-width:768px) {
-  .top{
+.match2 {
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 70vh;
 }
+@media screen and (max-width: 768px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
 
-h1{
-    font-size: 2rem;
-}
-.stats ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-}
-.stats ul li{
-    list-style: none;
-    font-size: 1.3rem;
-    margin: 0.5rem 0rem;
-    
-}
-.plstats ul{
-    display: flex;
-   
-    flex-direction: column;
-    margin-top: 2rem;
-}
-.plstats ul li{
-    list-style: none;
-    font-size: 1.2rem;
-    margin: 0.5rem 0rem;
-    width: 100%;
+    h1 {
+        font-size: 2rem;
+    }
+    .stats ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .stats ul li {
+        list-style: none;
+        font-size: 1.3rem;
+        margin: 0.5rem 0rem;
+    }
+    .plstats ul {
+        display: flex;
 
-}
-.navlinks li a:hover{
-    color: black;
-}
-.navlinks li a:active{
-    color: black;
-}
-.cool::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: black;
-    transition: width .3s forwards;
-}
-.cool:hover::after{
-    width: 100%;
-    transition: width .3s forwards;
-}
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .plstats ul li {
+        list-style: none;
+        font-size: 1.2rem;
+        margin: 0.5rem 0rem;
+        width: 100%;
+    }
+    .navlinks li a:hover {
+        color: black;
+    }
+    .navlinks li a:active {
+        color: black;
+    }
+    .cool::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: black;
+        transition: width 0.3s forwards;
+    }
+    .cool:hover::after {
+        width: 100%;
+        transition: width 0.3s forwards;
+    }
+    .match2 {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
 }
